@@ -368,6 +368,9 @@
       
       
         
+
+        
+        
         
         
         
@@ -379,16 +382,35 @@
         
 
 
-        <img
-          
-            src="/images/featured-post/post-3_hu_3a6d028164e67d4e.webp" loading="lazy"
-            decoding="async" alt="準備AFK魔獸了"
-          
-
-          class=" img-fluid w-100 mb-4 img"
-          width="261"
-          height="282"
-          onerror="this.onerror='null';this.src='\/images\/featured-post\/post-3.jpeg';" />
+        <picture>
+          <source
+            
+              srcset="/images/featured-post/post-3_hu_93254404a13571f9.webp"
+            
+            media="(max-width: 575px)" />
+          <source
+            
+              srcset="/images/featured-post/post-3_hu_f89145972ab34667.webp"
+            
+            media="(max-width: 767px)" />
+          <source
+            
+              srcset="/images/featured-post/post-3_hu_65e4f02dd19d02b5.webp"
+            
+            media="(max-width: 991px)" />
+          <source
+            
+              srcset="/images/featured-post/post-3_hu_8cd6f2497ce59e31.webp"
+             />
+          <img
+            
+              loading="lazy" decoding="async"
+              src="/images/featured-post/post-3_hu_ca449e0fb16baf0a.jpeg"
+            class=" img-fluid w-100 mb-4 img"
+            alt="準備AFK魔獸了"
+            width="640"
+            height="604" />
+        </picture>
       
       
     
@@ -416,7 +438,26 @@
         </div>
 
         
-        
+        <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "meowmoomoo" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
       </div>
     </div>
   </div>
